@@ -1,0 +1,8 @@
+Paralelo:
+V-VL1-VLn
+---------
+Amp
+Serie:
+V-VL
+----------
+Amp1+Ampnn

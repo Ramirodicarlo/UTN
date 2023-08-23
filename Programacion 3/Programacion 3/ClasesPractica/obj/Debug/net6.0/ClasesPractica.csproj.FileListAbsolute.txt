@@ -1,0 +1,14 @@
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\bin\Debug\net6.0\ClasesPractica.exe
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\bin\Debug\net6.0\ClasesPractica.deps.json
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\bin\Debug\net6.0\ClasesPractica.runtimeconfig.json
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\bin\Debug\net6.0\ClasesPractica.dll
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\bin\Debug\net6.0\ClasesPractica.pdb
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\ClasesPractica.GeneratedMSBuildEditorConfig.editorconfig
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\ClasesPractica.AssemblyInfoInputs.cache
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\ClasesPractica.AssemblyInfo.cs
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\ClasesPractica.csproj.CoreCompileInputs.cache
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\ClasesPractica.dll
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\refint\ClasesPractica.dll
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\ClasesPractica.pdb
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\ClasesPractica.genruntimeconfig.cache
+D:\escritorio\UTN\Programacion 3\Programacion 3\ClasesPractica\obj\Debug\net6.0\ref\ClasesPractica.dll
