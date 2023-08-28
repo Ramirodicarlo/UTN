@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ramir\\.nuget\\packages\\": {},
-    "D:\\Visual\\Visual Shared\\NuGetPackages": {}
+    "C:\\Users\\marti\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\escritorio\\UTN\\Programacion 3\\Programacion 3\\ClasesPractica\\ClasesPractica.csproj",
+      "projectUniqueName": "C:\\Users\\marti\\Documents\\utn\\UTN\\Programacion 3\\Programacion 3\\ClasesPractica\\ClasesPractica.csproj",
       "projectName": "ClasesPractica",
-      "projectPath": "D:\\escritorio\\UTN\\Programacion 3\\Programacion 3\\ClasesPractica\\ClasesPractica.csproj",
-      "packagesPath": "C:\\Users\\ramir\\.nuget\\packages\\",
-      "outputPath": "D:\\escritorio\\UTN\\Programacion 3\\Programacion 3\\ClasesPractica\\obj\\",
+      "projectPath": "C:\\Users\\marti\\Documents\\utn\\UTN\\Programacion 3\\Programacion 3\\ClasesPractica\\ClasesPractica.csproj",
+      "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marti\\Documents\\utn\\UTN\\Programacion 3\\Programacion 3\\ClasesPractica\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Visual\\Visual Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ramir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
