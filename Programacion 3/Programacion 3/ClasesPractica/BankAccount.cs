@@ -70,5 +70,6 @@ namespace ClasesPractica
 
             return report.ToString();
         }
+
     }
 }
