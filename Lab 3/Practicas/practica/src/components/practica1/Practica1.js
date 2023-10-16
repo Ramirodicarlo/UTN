@@ -1,13 +1,5 @@
 import React from 'react'
 
-const Practica1 = () => {
-  return (
-    <div>Practica1</div>
-  )
-}
-
-
-
 const watchList = [
 	{
 		Title: 'Inception',
@@ -133,17 +125,12 @@ const watchList = [
 	},
 ];
 
-const returnMovieTitle = (watchList) => {
+const Practica1 = () => {
 	const result = watchList
 		.filter((peliculas)=>{return (peliculas.Director ==='Christopher Nolan' && peliculas.imdbRating > 8.0)})
 		.map((peliculas)=>peliculas.Title)
 
 	return result;
- }
-
-const titlesArray = returnMovieTitle(watchList);
-console.log(titlesArray);
-
-
+}
 
 export default Practica1
