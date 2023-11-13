@@ -1,55 +1,37 @@
-import { useContext,useRef, useState } from "react";
-import { AuthenticationContext } from "../services/autheticationContext/AuthenticationContext";
+import React, { useState } from "react";
 
-const Practica3 = () => {
-    const [user, setUser] = useState("");
-  
-    const userRef = useRef(null);
-  
-    const userChangeHandler = (event) => {
-      if (userRef.current.value.includes("o")||userRef.current.value.includes("O")) {
-        alert("user invalido, incluye o/O!");
-        return;
-      }
-      setUser(event.target.value);
-    };
-  
-    const {handleLogin}  = useContext(AuthenticationContext);
+function Practica3() {
+  const [username, setUsername] = useState("");
+  const [message, setMessage] = useState("");
 
-    const signInHandler = () => {
-      if (userRef.current.value.includes("o")||userRef.current.value.includes("O")) {
-        alert("user invalido, incluye o/O!");
-        return;
-      }
-      if (userRef.current.value.length === 0) {
-        alert("user vacio!!");
-        return;
-      }
-      handleLogin(user);
-    };
-  
-    return (
-      <div className="login-container">
-        <div >
-          <div className="input-container">
-            <input
-              className="input-control"
-              placeholder="user"
-              type="user"
-              onChange={userChangeHandler}
-              value={user}
-              ref={userRef}
-            />
-          </div>
-          <button onClick={signInHandler} className="signin-button" type="button">
-            Iniciar sesión
-          </button>
-        </div>
-      </div>
-    );
-  
-  
-   
+  const handleInputChange = (e) => {
+    const newUsername = e.target.value;
+    setUsername(newUsername);
+  };
+
+  const handleRegister = () => {
+    if (username === "") {
+      alert("Usuario inválido para registrarse");
+    } else if (username.toLowerCase().includes("o")) {
+      alert("Por favor, ¡Nombres de usuario sin la letra o!");
+    } else {
+      alert("¡Usuario registrado correctamente!");
+    }
+  };
+
+  return (
+    <div>
+      <input
+        type="text"
+        placeholder="Nombre de usuario"
+        value={username}
+        onChange={handleInputChange}
+      />
+      <button onClick={handleRegister}>Registrarse</button>
+      <p>Nombre de usuario: {username}</p>
+      <p>{message}</p>
+    </div>
+  );
 }
 
-export default Practica3
+export default Practica3;
